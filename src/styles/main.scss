@@ -1,23 +1,10 @@
 // @import 'blocks/header';
 
-@font-face {
-    font-family: Georgia_Regular;
-    src: url(../fonts/Georgia_Regular.ttf);
-}
-
 textarea, input, button { outline: none; }
 
-.container {
-    max-width: 1180px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 body {
-	font-family: Georgia, serif;    //Georgia_Regular;  
-}
+	font-family: Arial, serif;  
+}      
 
 .body-wrapper {
     background-color: #bae0b3;
@@ -34,31 +21,22 @@ body {
 }
 
 .btn {
-    background-color: #752a49;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 0;
+    color: white;
+    width: 80%;
     display: inline-block;
-    padding: 0 56px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    touch-action: manipulation;
+    text-decoration: none;
+    font-size: 30px;
+    background: #661212;
+    // background: linear-gradient(234deg, #FF0000 0%, #661212 80%);
+    background: linear-gradient(45deg, #661212 20%, #ff0000 100%);
     cursor: pointer;
-    user-select: none;
-    background-image: none;
-    color: #fcf9f9;
-    border: 0; //1px solid transparent;
-    letter-spacing: 1px;
 
     &:hover {
-        background-color:  #96365e;
+        background:  green;
     }
 }
 
-.block-header {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 38px;
-}
+

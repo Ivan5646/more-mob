@@ -1,5 +1,4 @@
 .header {
-    color: red;
     
     &__flag {
         // background-image: url(../../img/flag.png);
@@ -20,8 +19,22 @@
         &--blue {
             background-color: #31b9b4;
         }
-        &--white {
+        &--red {
             background-color: #b93131;
         }
+    }
+
+    &__title {
+        color: #31b9b4;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &__pic {
+        background-image: url(../../img/weightLoss.png);
+        height: 156px;
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background-position: 50% 50%;
     }
 }
