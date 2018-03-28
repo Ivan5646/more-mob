@@ -1,0 +1,27 @@
+.header {
+    color: red;
+    
+    &__flag {
+        // background-image: url(../../img/flag.png);
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // width: 430px;
+        // height: 71px;
+
+
+    }
+
+    &__flag-colors {
+        height: 18px;
+
+        &--white {
+            background-color: #fff; 
+        }
+        &--blue {
+            background-color: #31b9b4;
+        }
+        &--white {
+            background-color: #b93131;
+        }
+    }
+}

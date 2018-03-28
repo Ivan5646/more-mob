@@ -17,7 +17,20 @@ textarea, input, button { outline: none; }
 
 body {
 	font-family: Georgia, serif;    //Georgia_Regular;  
-    color: green; 
+}
+
+.body-wrapper {
+    background-color: #bae0b3;
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-wrapper {
+    max-width: 430px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .btn {
