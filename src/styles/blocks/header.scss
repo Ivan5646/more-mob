@@ -1,5 +1,7 @@
 .header {
     
+    border-bottom: 7px solid #e5e5e5;
+
     &__flag {
         // background-image: url(../../img/flag.png);
         // background-repeat: no-repeat;
@@ -25,7 +27,7 @@
     }
 
     &__title {
-        color: #31b9b4;
+        color: #31b9b4; 
         text-transform: uppercase;
         margin: 0;
     }
@@ -36,5 +38,9 @@
         background-repeat: no-repeat;
         // background-size: cover;
         background-position: 50% 50%;
+    }
+
+    &__timer {
+        color: #298f8b;
     }
 }

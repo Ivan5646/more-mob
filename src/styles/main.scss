@@ -21,6 +21,7 @@ body {
 }
 
 .btn {
+    
     border-radius: 10px;
     border: 0;
     padding: 15px 0;
@@ -28,15 +29,36 @@ body {
     width: 80%;
     display: inline-block;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 28px;
     background: #661212;
     // background: linear-gradient(234deg, #FF0000 0%, #661212 80%);
     background: linear-gradient(45deg, #661212 20%, #ff0000 100%);
     cursor: pointer;
+    box-shadow: 0 0 8px #000;
 
     &:hover {
-        background:  green;
+        background: #cc0000;
+    }
+
+    &__span {
+        position: relative;
+        padding-right: 20px;
+
+       &::after {
+            position: absolute;
+            top: 20%;
+            // transform: translateX(-50%);
+            right: -6px;
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-image: url(../../img/play.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }   
     }
 }
+
+
 
 
