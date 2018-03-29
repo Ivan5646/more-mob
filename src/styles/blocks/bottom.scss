@@ -1,0 +1,48 @@
+@import "../_variables.scss";
+
+.bottom {
+    
+    &__arrow {
+        width: 67px;
+        height: 67px;
+        background-image: url(../../img/arrow.png);
+        margin: 0 auto;
+        background-repeat: no-repeat;
+    }
+
+    &__info {
+        background-color: $primary-green;
+        color: #fff;
+    }
+
+    &__title {
+        text-transform: uppercase;
+
+    }
+
+    &__callback {
+        color: #94989d;
+    }
+
+    &__form {
+        max-width: 310px;
+        margin: 0 auto;
+        // padding: 0 10px;
+
+        label {
+            text-align: left;
+        }
+
+        input {
+            width: 88%;
+            border-radius: 12px;
+        }
+    }
+
+    &__form-wrapper {
+        background-color: #bfd2d1;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        padding: 20px 0;
+    }
+}

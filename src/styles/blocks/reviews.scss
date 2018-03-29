@@ -6,7 +6,7 @@
         color: $primary-green;
     }
 
-    &__review {
+    &__review:not(:last-child) {
         @include divider();
     }
 
