@@ -1,6 +1,7 @@
 @import "../_variables.scss";
 
 .reviews {
+    margin-bottom: 20px; // 16px psd?
 
     h3 {
         color: $primary-green;
@@ -15,7 +16,8 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
 
     &__user-avatar {
@@ -61,7 +63,14 @@
         background-repeat: no-repeat;
 
         &--2 {
+            width: 264px;
+            height: 139px;
             background-image: url(../../img/user2.png);
+            margin-bottom: 0;
         }
+    }
+
+    .timer {
+        font-size: 21px;
     }
 }
