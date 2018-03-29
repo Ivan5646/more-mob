@@ -4,6 +4,7 @@
 
     h3 {
         color: $primary-green;
+        margin-top: 24px;
     }
 
     &__review:not(:last-child) {
@@ -41,6 +42,7 @@
     &__text {
         text-align: left;
         font-size: 12px;
+        margin-bottom: 12px;
     }
 
     &__user-name {
