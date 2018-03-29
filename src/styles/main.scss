@@ -39,8 +39,8 @@ h3 {
     text-decoration: none;
     font-size: 24px;
     background: #661212;
-    // background: linear-gradient(234deg, #FF0000 0%, #661212 80%);
-    background: linear-gradient(45deg, #661212 20%, #ff0000 100%);
+    // background: linear-gradient(45deg, #661212 20%, #ff0000 100%);
+    background: linear-gradient(to bottom,  #ff0000 1%,#661212 100%); // 3d effect
     cursor: pointer;
     box-shadow: 0 0 8px #000;
     margin-bottom: 10px;
