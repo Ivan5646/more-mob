@@ -10,6 +10,12 @@
         padding: 0;
         margin: 0;
         margin-left: 8px;
+
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
     }
 
     &__dot {
@@ -17,11 +23,38 @@
         background: #83d047;
         width: 10px;
         height: 10px;
-        display: inline-block;
+        
     }
 
     &__item {
+        // display: inline-block;
         padding-left: 6px;
+        max-width: 220px;
+    }
+
+    &__pic {
+        // display: inline-block;
+        // width: 53px;
+        // height: 49px;
+        width: 54px;
+        height: 60px;
+        background-image: url(../../img/scales.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 6px;
+
+        &--waist {
+            background-image: url(../../img/waist.png);
+            // width: 46px;
+            // height: 60px;
+        }
+
+        &--heart {
+            background-image: url(../../img/heart.png);
+            // width: 54px;
+            // height: 63px;
+            
+        }
     }
 }
 
