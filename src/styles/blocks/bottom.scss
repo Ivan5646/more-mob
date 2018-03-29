@@ -1,12 +1,17 @@
 @import "../_variables.scss";
 
 .bottom {
-    
+
+    h3 {
+        margin-bottom: 2px;
+        margin-top: 0;
+    }
+
     &__arrow {
         width: 67px;
         height: 67px;
         background-image: url(../../img/arrow.png);
-        margin: 0 auto;
+        margin: 0 auto 20px;
         background-repeat: no-repeat;
     }
 
@@ -14,6 +19,12 @@
         background-color: $primary-green;
         color: #fff;
         font-size: 18px;
+        padding: 12px 0;
+        
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
 
     &__title {
@@ -24,6 +35,8 @@
     &__callback {
         color: #94989d;
         font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
 
     &__form {
