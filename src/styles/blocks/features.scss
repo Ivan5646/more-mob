@@ -2,6 +2,7 @@
 
 .features {
     @include divider();
+    padding: 0 15px;
     
     &__title {
         color: #298f8b;
@@ -12,7 +13,7 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        margin-left: 8px;
+        // margin-left: 8px;
 
         li {
             display: flex;

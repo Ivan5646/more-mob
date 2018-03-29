@@ -1,15 +1,21 @@
-@import "../_variables.scss";;
+@import "../_variables.scss";
 
 .reviews {
+    padding: 0 15px;
+
     h3 {
         color: $primary-green;
+    }
+
+    &__review {
+        @include divider();
     }
 
     &__user-info {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-
+        margin-bottom: 12px;
     }
 
     &__user-avatar {
@@ -19,7 +25,30 @@
         margin-right: 24px;
     }
 
-    &__user-name {
+    &__user-name-date {
         // display: inline-block;
+        text-align: left;
+        p {
+            margin: 0;
+        }
+    }
+
+    &__text {
+        text-align: left;
+    }
+
+    &__user-name {
+        color: #426499;
+    }
+
+    &__user-date {
+        color: #94989d;
+    }
+
+    &__pic {
+        width: 264px;
+        height: 182px;
+        background-image: url(../../img/user1.png);
+        margin: 0 auto 22px;
     }
 }
