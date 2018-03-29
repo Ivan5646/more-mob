@@ -1,4 +1,7 @@
+@import "../_variables.scss";
+
 .features {
+    @include divider();
     
     &__title {
         color: #298f8b;

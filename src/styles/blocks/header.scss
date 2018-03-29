@@ -1,6 +1,7 @@
+@import "../_variables.scss";
+
 .header {
-    
-    border-bottom: 7px solid #e5e5e5;
+    @include divider();
 
     &__flag {
         // background-image: url(../../img/flag.png);
