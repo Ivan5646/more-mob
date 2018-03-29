@@ -24,6 +24,10 @@ body {
     padding: 0 15px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 .btn {
     border-radius: 10px;
     border: 0;
@@ -32,7 +36,7 @@ body {
     width: 96%;
     display: inline-block;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
     background: #661212;
     // background: linear-gradient(234deg, #FF0000 0%, #661212 80%);
     background: linear-gradient(45deg, #661212 20%, #ff0000 100%);

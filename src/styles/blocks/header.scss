@@ -31,6 +31,11 @@
         color: #31b9b4; 
         text-transform: uppercase;
         margin: 0;
+        font-size: 24px;
+    }
+
+    &__subtitle {
+        font-size: 16px;
     }
 
     &__pic {
@@ -43,5 +48,6 @@
 
     &__timer {
         color: #298f8b;
+        font-size: 18px;
     }
 }

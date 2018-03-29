@@ -31,6 +31,8 @@
     &__user-name-date {
         // display: inline-block;
         text-align: left;
+        font-size: 12px;
+
         p {
             margin: 0;
         }
@@ -38,11 +40,12 @@
 
     &__text {
         text-align: left;
+        font-size: 12px;
     }
 
     &__user-name {
         color: #426499;
-    }
+            }
 
     &__user-date {
         color: #94989d;

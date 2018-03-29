@@ -13,6 +13,7 @@
     &__info {
         background-color: $primary-green;
         color: #fff;
+        font-size: 18px;
     }
 
     &__title {
@@ -22,12 +23,14 @@
 
     &__callback {
         color: #94989d;
+        font-size: 16px;
     }
 
     &__form {
         max-width: 310px;
         margin: 0 auto;
         // padding: 0 10px;
+        font-size: 16px;
 
         label {
             text-align: left;
@@ -36,6 +39,7 @@
         input {
             width: 88%;
             border-radius: 12px;
+            font-size: 16px;
         }
     }
 
