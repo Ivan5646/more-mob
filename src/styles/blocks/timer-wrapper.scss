@@ -1,0 +1,18 @@
+.timer-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #298f8b;
+    font-size: 16px;
+
+    &__warning {
+        margin-right: 12px;
+    }
+}
+
+.countbox {
+    div {
+        float: left;
+        font-size: 16px;
+    }
+}
