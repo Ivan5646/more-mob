@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".btn").click(function(){$("html, body").animate({scrollTop:$("#form").offset().top},1500)}),console.log("hi from Test")});
+$(document).ready(function(){$(".btn").click(function(){$("html, body").animate({scrollTop:$("#form").offset().top},1500)})});
