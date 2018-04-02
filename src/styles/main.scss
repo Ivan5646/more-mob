@@ -46,7 +46,9 @@ h3 {
     margin-bottom: 10px;
 
     &:hover {
-        background: #cc0000;
+        // background: #cc0000;
+        background: #e60000;
+        // box-shadow: 0 0 15px rgba(0,0,0,0.9);
     }
 
     &__span {
