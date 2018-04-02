@@ -49,4 +49,11 @@ gulp.task('watch', function () {
   // gulp.watch('src/index.html', index);
 });
 
+// concatenate styles for production
+gulp.task('styles-prod', function() {
+  return gulp.src("build/styles/**/*.css")
+    .pipe(concat("all.css"))
+    .pipe(gulp.dest("build/styles"))
+});
+
 gulp.task('default', ['connect', 'watch']);
